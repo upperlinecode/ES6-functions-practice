@@ -1,4 +1,4 @@
-# ES6-functions-practice
+# Practice with ES6 Functions
 
 ## Password Madness!
 

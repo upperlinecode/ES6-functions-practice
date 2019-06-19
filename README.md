@@ -70,9 +70,21 @@ requireSpecialCharacters("ohnoanotherbadguy") // Returns False
 
 ```
 
+6. Now write a function called `mediumPasswordGenerator` that generates a random password and takes in two arguments: the total length of the password and the number of special characters (see #5) the password should have. If the second argument is greater than the first, the function should return `false`.
+
+Example:
+
+```js
+mediumPasswordGenerator(5, 2) // Returns "a&g$c" or "BU#7!" or "^%876" or any other 5 character string with two special characters.
+mediumPasswordGenerator(7, 10) // Returns False
+
+```
+
+> Try using your `requireSpecialCharacters` function to check that the `mediumPasswordGenerator(n, m)` (n > m, m > 1) function creates a password with two or more special characters.
+
 ### Spicy
 
-6. Newer sites also require that passwords contain a combination of the following: uppercase letters, lowercase letters, numbers, and special characters (see #5). Create a function called `checkMultipleSymbols` that checks to see if a string contains one of each of these types of characters.
+7. Newer sites also require that passwords contain a combination of the following: uppercase letters, lowercase letters, numbers, and special characters (see #5). Create a function called `checkMultipleSymbols` that checks to see if a string contains one of each of these types of characters.
 
 Example:
 
@@ -83,7 +95,18 @@ checkMultipleSymbols("eventhoughthisisareallylongpassworditstillisntgoodenough")
 
 ```
 
-7. Update your `checkMultipleSymbols` function to return a message to the user indicating which type of character is missing from their proposed password. If the password contains all four types of characters, then return "Great password!"
+8. Now write a function called `securePasswordGenerator` that generates a random password and takes in one argument: the total length of the password. This time, however, the password generated should contain at least one uppercase letter, one lowercase letter, one number, and one special character (see #5). Consider under what conditions the function should return `false`.
+
+Example:
+
+```js
+securePasswordGenerator(5) // Returns "A1a!n" or "0&yTb" or "^%87d" or any other 5 character string with one uppercase letter, one lowercase letter, one number, and one special character.
+
+```
+
+> Try using your `checkMultipleSymbols` function to check that the `securePasswordGenerator` function always creates a secure password.
+
+9. Update your `checkMultipleSymbols` function to return a message to the user indicating which type of character is missing from their proposed password. If the password contains all four types of characters, then return "Great password!"
 
 Example:
 
@@ -94,9 +117,9 @@ checkMultipleSymbols("eventhoughthisisareallylongpassworditstillisntgoodenough")
 
 ```
 
-8. Update your `checkMultipleSymbols` function again to provide a user with some visual feedback about the strength of their password. This could be in the form of a color-coded message or progress bar or something of your own design.
+10. Update your `checkMultipleSymbols` function again to provide a user with some visual feedback about the strength of their password. This could be in the form of a color-coded message or progress bar or something of your own design.
 
-For example, if the password contains all four types of characters, then it could return "Great password!" on a green background. If it's missing one type of character, maybe the message is on a yellow background; if it's missing two, it could be on an orange background; and if it's missing three, it could be on a red background.
+  For example, if the password contains all four types of characters, then it could return "Great password!" on a green background. If it's missing one type of character, maybe the message is on a yellow background; if it's missing two, it could be on an orange background; and if it's missing three, it could be on a red background.
 
-Use your creativity to help the user generate a secure password!
+  Use your creativity to help the user generate a secure password!
 

@@ -7,7 +7,7 @@ Have you ever gone to a website and had that frustrating experience where the pa
 Remember that function syntax in ES6 looks like this:
 
 ```js
-//defining a function
+// defining a function
 const myFunc = (name) => {
   return "hello " + name
 }
@@ -96,7 +96,7 @@ checkMultipleSymbols("eventhoughthisisareallylongpassworditstillisntgoodenough")
 
 8. Update your `checkMultipleSymbols` function again to provide a user with some visual feedback about the strength of their password. This could be in the form of a color-coded message or progress bar or something of your own design.
 
-For example, if the password contains all four types of characters, then it could return "Great password!" on a green background. If it's missing one type of character, maybe the message is on a yellow background; if it's missing two, it could be on an orange background; and if it's missing three, it could be on a red background.
+   For example, if the password contains all four types of characters, then it could return "Great password!" on a green background. If it's missing one type of character, maybe the message is on a yellow background; if it's missing two, it could be on an orange background; and if it's missing three, it could be on a red background.
 
-Use your creativity to help the user generate a secure password!
+   Use your creativity to help the user generate a secure password!
 

@@ -1,2 +1,2 @@
-language = "html"
-run = "python -m SimpleHTTPServer"
+language = "nodejs"
+run = "run script.js"

@@ -1,5 +1,7 @@
 # Practice with ES6 Functions
 
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/ES6-functions-practice)](https://repl.it/github/upperlinecode/ES6-functions-practice)
+
 ## Password Madness!
 
 Have you ever gone to a website and had that frustrating experience where the password expectations are crazy? In this lab, you'll be working on building password generators and verifiers, using ES6 Functions syntax.

@@ -31,7 +31,7 @@ basicPasswordCheck("thisisalongpassword") // Returns "This is a valid password"
 ```
 
 #### 2. `confirmUncommonPassword`
-Create a function called `confirmUncommonPassword` that checks to make sure that a given password isn't a variation of the two most common passwords: `"password1"` and `"abcd1234"`. These passwords are easily guessed, so if a user's password includes one of these two phrases (even if there are extra letters or numbers), it should return `false`. If the user's password does not include one of these two phrases,
+Create a function called `confirmUncommonPassword` that checks to make sure that a given password isn't a variation of the two most common passwords: `"password1"` and `"abcd1234"`. These passwords are easily guessed, so if a user's password includes one of these two phrases (even if there are extra letters or numbers), it should return `false`. If the user's password does not include one of these two phrases, the function should return `true`.
 
 Example:
 
